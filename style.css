@@ -1,0 +1,68 @@
+canvas {
+	background: black;
+	display: block;
+}
+body {
+	margin: 0;
+	font-family: monospace;
+	user-select: none;
+}
+p {
+	margin: 0;
+}
+div.score {
+	position: fixed;
+	color: white;
+	margin-top: 5px;
+	margin-left: 10px;
+	
+	font-size: 15px;
+
+}
+p.time {
+	color: grey;
+	padding: 0;
+}
+
+div.startBoxContainer {
+	position: fixed ;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div.startBox {
+	position: fixed;
+	background: white;
+	width: 20%;
+	padding: 16px;
+	margin: 0;
+	text-align: center;
+	border-radius: 10px;
+}
+
+button.start {
+	background-color: blue;
+	color: white;
+	width: 100%;
+	padding: 10px;
+	margin-top: 10px;
+	border: none;
+	border-radius: 10px;
+	font-family: inherit;
+	font-weight: bold;
+	font-size: 15px;
+
+}
+button.start:hover {
+	background-color: purple;
+}
+p.hugeScore {
+	font-size: 40px;
+	font-weight: bold;
+
+}
